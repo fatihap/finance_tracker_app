@@ -23,7 +23,7 @@ extension CategoryIconExtension on String {
         return FontAwesomeIcons.wifi;
       case 'phone':
         return FontAwesomeIcons.phone;
-      
+
       // Income & Finance
       case 'salary':
         return FontAwesomeIcons.briefcase;
@@ -43,7 +43,7 @@ extension CategoryIconExtension on String {
         return FontAwesomeIcons.buildingColumns;
       case 'business':
         return FontAwesomeIcons.building;
-      
+
       // Food & Dining
       case 'food':
         return FontAwesomeIcons.utensils;
@@ -57,7 +57,7 @@ extension CategoryIconExtension on String {
         return FontAwesomeIcons.cartShopping;
       case 'coffee':
         return FontAwesomeIcons.coffee;
-      
+
       // Transportation
       case 'transport':
         return FontAwesomeIcons.bus;
@@ -75,7 +75,7 @@ extension CategoryIconExtension on String {
         return FontAwesomeIcons.plane;
       case 'train':
         return FontAwesomeIcons.train;
-      
+
       // Shopping & Retail
       case 'shopping':
         return FontAwesomeIcons.bagShopping;
@@ -93,7 +93,7 @@ extension CategoryIconExtension on String {
         return FontAwesomeIcons.book;
       case 'checkroom':
         return FontAwesomeIcons.shirt;
-      
+
       // Entertainment & Leisure
       case 'entertainment':
         return FontAwesomeIcons.film;
@@ -111,7 +111,7 @@ extension CategoryIconExtension on String {
         return FontAwesomeIcons.plane;
       case 'vacation':
         return FontAwesomeIcons.umbrellaBeach;
-      
+
       // Health & Medical
       case 'health':
         return FontAwesomeIcons.heartPulse;
@@ -125,7 +125,7 @@ extension CategoryIconExtension on String {
         return FontAwesomeIcons.hospital;
       case 'insurance':
         return FontAwesomeIcons.shield;
-      
+
       // Education & Learning
       case 'education':
         return FontAwesomeIcons.graduationCap;
@@ -137,7 +137,7 @@ extension CategoryIconExtension on String {
         return FontAwesomeIcons.bookOpen;
       case 'training':
         return FontAwesomeIcons.chalkboard;
-      
+
       // Technology & Communication
       case 'internet':
         return FontAwesomeIcons.globe;
@@ -149,7 +149,7 @@ extension CategoryIconExtension on String {
         return FontAwesomeIcons.cloud;
       case 'mobile':
         return FontAwesomeIcons.mobile;
-      
+
       // Personal & Family
       case 'gift':
         return FontAwesomeIcons.gift;
@@ -161,7 +161,7 @@ extension CategoryIconExtension on String {
         return FontAwesomeIcons.paw;
       case 'personal_care':
         return FontAwesomeIcons.spa;
-      
+
       // Services & Professional
       case 'legal':
         return FontAwesomeIcons.scaleBalanced;
@@ -173,7 +173,7 @@ extension CategoryIconExtension on String {
         return FontAwesomeIcons.tools;
       case 'cleaning':
         return FontAwesomeIcons.broom;
-      
+
       // Miscellaneous
       case 'receipt':
         return FontAwesomeIcons.receipt;
@@ -193,7 +193,7 @@ extension CategoryIconExtension on String {
         return FontAwesomeIcons.hand;
       case 'flash_on':
         return FontAwesomeIcons.bolt;
-      
+
       // Lucide Icons for specific cases
       case 'lucide_home':
         return LucideIcons.home;
@@ -215,7 +215,7 @@ extension CategoryIconExtension on String {
         return LucideIcons.gift;
       case 'lucide_credit_card':
         return LucideIcons.creditCard;
-      
+
       default:
         return FontAwesomeIcons.coins;
     }
